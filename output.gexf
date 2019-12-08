@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2019-12-08">
+    <creator>creator</creator>
+    <description>name</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" label="name" timeformat="double">
+    <nodes>
+      <node id="1" label="http://example.com"/>
+      <node id="2" label="http://example.com/12"/>
+      <node id="3" label="http://foo.com"/>
+      <node id="4" label="http://dood.com"/>
+    </nodes>
+    <edges>
+      <edge id="1" source="1" target="2"/>
+      <edge id="2" source="3" target="1"/>
+      <edge id="3" source="1" target="4"/>
+    </edges>
+  </graph>
+</gexf>

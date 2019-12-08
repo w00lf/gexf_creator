@@ -1,0 +1,4 @@
+SourceURL,TargetURL
+http://example.com,http://example.com/12
+http://foo.com,http://example.com
+http://example.com,http://dood.com

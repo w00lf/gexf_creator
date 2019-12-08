@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+pylint = "*"
+
+[packages]
+lxml = "==4.4.2"
+google-api-core = "==1.7.0"
+google-auth = "==1.6.2"
+google-auth-oauthlib = "==0.2.0"
+google-cloud = "==0.34.0"
+google-cloud-core = "==0.29.1"
+google-cloud-storage = "==1.14.0"
+google-resumable-media = "==0.3.2"
+tenacity = "==5.1.1"
+
+[requires]
+python_version = "3.7"
